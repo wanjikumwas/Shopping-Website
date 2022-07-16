@@ -1,0 +1,100 @@
+body{
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: #01000f;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Login{
+    color: #fff;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 10px 10px 30px #8c2496, -10px -10px 30px #8c2496;
+}
+.Login .Box .UserAndPw input{
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 96%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Login .Box .UserAndPw label{
+    display: block;
+}
+.Login .Box .Checkbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Login .Box .LogButton{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Login .Box .LogButton input[type="submit"]{
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #2a21d9;
+}
+.Login .Box .LogButton input[type="submit"]:active{
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    background-color: #fff;
+    border: solid #b512a5;
+    color: #b512a5;
+}
+.Login .Box .Link h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    border-top: solid 1px #fff;
+    text-align: center;
+}
+#title{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+#subTitle{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+}
+#author{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #fff;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: #551a8b;
+}
+a:hover{
+    color: #e500a4;
+}
+a:active{
+    color: #c2f8cb;
+}
